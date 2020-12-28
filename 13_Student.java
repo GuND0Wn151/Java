@@ -2,6 +2,13 @@ import java.util.*;
 class Student{
 	String id,name,address;
 	int age;
+	Student(String a, String b,String c,int d){
+		name =a;
+		id=b;
+		address=c;
+		age=d;
+
+	}
 	void displayDetails(){
 		System.out.println("Name: "+this.name);
 		System.out.println("id: "+this.id);
@@ -14,13 +21,8 @@ class Student{
 
 class Task10{
 	public static void main(String args[]){
-		Student a=new Student();
-		Scanner input=new Scanner(System.in);
-		System.out.println("enter the values Name id address age");
-		a.name=input.next();
-		a.id=input.next();
-		a.address=input.next();
-		a.age=input.nextInt();
+		Student a=new Student("ram","232",'city collge',10);
+		
 		a.displayDetails();
 	
 	}
