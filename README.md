@@ -33,4 +33,10 @@ Binding (or wrapping) code and data together into a single unit are known as enc
 A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
 
 
-
+---------------------------------------
+Success is my only option, failure’s not.
+----------------------------------------
+_____________________________________________________________________________
+Source :- https://www.javatpoint.com/java-oops-concepts
+## Made By:
+GuND0Wn151 , India
