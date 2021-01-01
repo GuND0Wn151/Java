@@ -15,7 +15,6 @@ public class 9_Prime
 			}
 			if(k==0)
 			System.out.println(j);
-		
 		}
 	
 	}
