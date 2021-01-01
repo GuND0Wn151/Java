@@ -31,6 +31,6 @@ class Task16{
 		ram.social=input.nextInt();
 		System.out.println(ram.math);
 		ram.grad();
-		
+		input.close();
 	}
 }
