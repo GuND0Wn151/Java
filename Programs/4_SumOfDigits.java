@@ -13,4 +13,5 @@ class Task4{
 		System.out.println("No of digits are:"+count);
 		input.close();
 	}
+	
 }
