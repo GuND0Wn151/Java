@@ -20,7 +20,7 @@ class Task11{
 		}
 		for(int i=0;i<10;i++)
 			System.out.print(ar[i]+" ");
-	
+	input.close();
 	}
 
 
