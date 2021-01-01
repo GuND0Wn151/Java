@@ -1,7 +1,7 @@
 import java.util.*;
 class Task4{
 	public static void main(String args[]){
-		int a,t,count=0;
+		int a,count=0;
 		Scanner input=new Scanner(System.in);
 		System.out.println("Enter the value");
 		a=input.nextInt();
@@ -11,5 +11,6 @@ class Task4{
 			a=a/10;
 		}
 		System.out.println("No of digits are:"+count);
+		input.close();
 	}
 }
