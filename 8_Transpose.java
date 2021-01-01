@@ -34,7 +34,7 @@ class Task8{
 			System.out.println();
 			}
 		
-	
+			input.close();
 	}
 
 }
