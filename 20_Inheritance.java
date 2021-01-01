@@ -1,4 +1,4 @@
-import java.util.*;
+
 class Test1 {
 	int var=10;
 	void method(){
