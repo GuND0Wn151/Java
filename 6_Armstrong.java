@@ -20,9 +20,9 @@ class Task7{
 		System.out.println("Armstrong");
 		else
 		System.out.println("Not Armstrong");
-	
+	input.close();
 	}
 
-
+	
 
 }
