@@ -9,7 +9,7 @@ class SomeThread extends Thread{
 	catch(InterruptedException ie){}
 	}
 }
-public class MainThread2{
+public class 22_TwoThreads{
 public static void main(String[] asd){
 	SomeThread t1=new SomeThread();
 	SomeThread t2=new SomeThread();
