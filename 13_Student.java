@@ -21,7 +21,7 @@ class Student{
 
 class Task10{
 	public static void main(String args[]){
-		Student a=new Student("ram","232",'city collge',10);
+		Student a=new Student("ram","232","city collge",10);
 		
 		a.displayDetails();
 	
