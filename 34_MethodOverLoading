@@ -1,0 +1,21 @@
+class Solids{
+    void findVolume(float r){
+        System.out.println("Volume of Sphere "+r*r*r*4*3.14/3);
+        
+    }
+    void findVolume(float r,float h){
+        System.out.println("Volume of Cylinder "+3.14*r*r*h);
+    }
+    void findVolume(float r,float l,float h){
+        System.out.println("Volume of Cone "+3.14*r*r*h/3);
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Solids t=new Solids();
+		t.findVolume(3);
+		t.findVolume(2,5);
+		t.findVolume(3,6,5);
+	}
+}
