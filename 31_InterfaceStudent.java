@@ -25,7 +25,7 @@ class PG_Student implements Student{
     String qualification="Ug Pass";
     PG_Student(String a,String b,int c){
         name=a;
-        b=id;
+        id=b;
         age=c;
     }
     public void display(){
