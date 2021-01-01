@@ -11,7 +11,7 @@ class MyThread extends Thread{
 }
 
 
-public class MainThread4{
+public class 24_TwoThread2{
 public static void main(String[] ad){
 	MyThread t1=new MyThread();
 	try{	
