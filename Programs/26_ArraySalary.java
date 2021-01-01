@@ -20,8 +20,6 @@ class Salary extends Employee{
 	}
 	
 }
-
-
 class 26_ArraySalary{
 	public static void main(String args[]){
 		Salary[] p=new Salary[5];
