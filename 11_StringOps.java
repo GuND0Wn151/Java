@@ -2,7 +2,7 @@ import java.util.*;
 class Task13{
 	public static void main(String args[]){
 		String a="This is a String";
-		Scanner input = new Scanner(System.in);
+		
 		System.out.println("charAt:"+a.charAt(2));
 		System.out.println("indexOf:"+a.indexOf("s"));
 		System.out.println("lastindex:"+a.lastIndexOf("i"));
