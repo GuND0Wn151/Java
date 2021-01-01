@@ -46,7 +46,7 @@ class Task18{
 						break;
 				case 4:	System.exit(0);
 						break;
-						
+					
 			}
 		}
 	}
