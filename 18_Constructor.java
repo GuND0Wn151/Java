@@ -17,16 +17,16 @@ class Student{
 		System.out.println(age);
 
 	}
-	/*void getDetails(){
+	void getDetails(){
 		System.out.println(name);
 		System.out.println(roll_no);
 		System.out.println(age);
-	}*/
+	}
 }
 class Task19{
 	public static void main(String args[]){
 		Student ram=new Student("ram","23232dsf4");
-		//ram.getDetails();
+		ram.getDetails();
 		
 	}
 }
