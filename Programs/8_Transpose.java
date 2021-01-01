@@ -33,7 +33,7 @@ class Task8{
 				System.out.print(ar[j][i]+" ");}
 			System.out.println();
 			}
-		
+
 			input.close();
 	}
 
