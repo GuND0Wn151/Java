@@ -21,6 +21,5 @@ public class 5_Floyds2 {
         }
         input.close();
 
-
     }
 }
