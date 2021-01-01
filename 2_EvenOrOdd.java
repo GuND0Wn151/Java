@@ -9,6 +9,7 @@ class EvenOrOdd{
 			System.out.println("Even");
 		else
 			System.out.println("Odd");
+		input.close();
 	}
 
 }
