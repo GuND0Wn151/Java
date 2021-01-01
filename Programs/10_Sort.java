@@ -1,27 +1,32 @@
-import java.util.*;
-class Task11{
-	public static void main(String args[]){
-		int temp,min=0;
-		int[] ar=new int[10];
-		Scanner input=new Scanner(System.in);
-		System.out.println("ENter the values of array");
-		for(int i=0;i<10;i++)
-		ar[i]=input.nextInt();
-		for(int i=0;i<10;i++){
-			min=i;
-			for(int j=i+1;j<10;j++){
-				if(ar[i]>ar[j])
-				min=j;
+import java.util.Scanner;
+public class sort {
+    static void algo(int ar[]){
+        int temp;
+        int n=ar.length;
+        for(int i=0;i<n;i++)
+            for(int j=0;j<n-1-i;j++){
+                if(ar[j]>ar[j+1]){
+                    temp=ar[j];
+                    ar[j]=ar[j+1];
+                    ar[j+1]=temp;
+                }
+
+        }
+    }
+    
+    public  static void main(String[] args){ 
+    Scanner sc =new Scanner(System.in);
+			int a=sc.nextInt();
+			//int b= sc.nextInt();
+			int x[]=new int[a];
+			for (int i =0;i<a;i++){
+					x[i]=sc.nextInt();
+            }
+            algo(x);
+			for (int i =0;i<a;i++){
+					 System.out.print(x[i]+ " ");
 			}
-			temp=ar[min];
-			ar[min]=ar[i];
-			ar[i]=temp;
-			
-		}
-		for(int i=0;i<10;i++)
-			System.out.print(ar[i]+" ");
-	input.close();
-	}
-
-
+		
+            sc.close();
+        }
 }
