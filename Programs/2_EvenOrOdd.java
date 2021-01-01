@@ -11,5 +11,4 @@ class EvenOrOdd{
 			System.out.println("Odd");
 		input.close();
 	}
-
 }
