@@ -22,7 +22,6 @@ class Task6{
 		
 		
 		input.close();
-	
 	}
 
 }
