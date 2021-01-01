@@ -19,7 +19,7 @@ Thread.sleep(1000);
 catch(InterruptedException ie){}
 }
 }
-public class  MainThread3{
+public class 23_MultiThread{
 public static void main(String[] as){
 	SomeThread1 t1=new SomeThread1();
 	SomeThread2 t2=new SomeThread2();
