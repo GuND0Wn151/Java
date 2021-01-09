@@ -1,5 +1,5 @@
 import java.util.*;
-class Task13{
+class 11_StringOps{
 	public static void main(String args[]){
 		String a="This is a String";
 		
