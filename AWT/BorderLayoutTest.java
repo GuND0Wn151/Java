@@ -18,7 +18,7 @@ public class BorderLayoutTest extends Frame{
             add(b1,BorderLayout.NORTH);
             add(b2,BorderLayout.SOUTH);
             add(b3,BorderLayout.EAST);
-            add(b1,BorderLayout.WEST);
+            add(b4,BorderLayout.WEST);
             add(t1,BorderLayout.CENTER);
             b1.addActionListener(new SubClass());
             b2.addActionListener(new SubClass());
