@@ -1,4 +1,3 @@
-
 import java.awt.event.*;
 import java.util.*;
 import java.awt.*;
@@ -16,12 +15,17 @@ public class BorderLayoutTest extends Frame{
             setSize(400,300);
             setLayout(new BorderLayout());
             setTitle("awt Border");
-            add(b1);add(b2);add(b3);add(b4);add(t1);
+            add(b1,BorderLayout.NORTH);
+            add(b2,BorderLayout.SOUTH);
+            add(b3,BorderLayout.EAST);
+            add(b1,BorderLayout.WEST);
+            add(t1,BorderLayout.CENTER);
             b1.addActionListener(new SubClass());
             b2.addActionListener(new SubClass());
             b3.addActionListener(new SubClass());
             b4.addActionListener(new SubClass());
             addWindowListener(new SubClass1());
+
             setVisible(true);
       }
       class SubClass1 extends WindowAdapter{
